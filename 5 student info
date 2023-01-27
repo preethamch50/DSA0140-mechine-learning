@@ -1,0 +1,29 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+class sample{
+    public:
+    void details(){
+    string name;
+    cout<<"enter your name";
+    cin>>name;
+    string dept;
+    cout<<"enter dept name";
+    cin>> dept;
+    int regno;
+    cout<<"enter regno";
+    cin>>regno;
+    string avgmarks;
+    cout<<"avg marks";
+    cin>> avgmarks;
+    cout<<"\t"<<name<<"\t"<<dept<<"\t"<<regno<<"\t"<<avgmarks;
+    cout<<"\t"<<name<<"\t"<<dept<<"\t"<<regno<<"\t"<<avgmarks;
+    cout<<"\t"<<name<<"\t"<<dept<<"\t"<<regno<<"\t"<<avgmarks;
+    cout<<"\t"<<name<<"\t"<<dept<<"\t"<<regno<<"\t"<<avgmarks;
+    cout<<"\t"<<name<<"\t"<<dept<<"\t"<<regno<<"\t"<<avgmarks;
+    }
+};
+int main(){
+    sample s;
+    s.details();
+}
